@@ -1,0 +1,20 @@
+package com.blaidd_ddrwg613.stuffnthings.datagen;
+
+import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
+import net.minecraft.data.PackOutput;
+import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+
+public class ModItemModelProvider extends ItemModelProvider
+{
+    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper)
+    {
+        super(output, StuffNThings.MODID, existingFileHelper);
+    }
+
+    @Override
+    protected void registerModels()
+    {
+
+    }
+}

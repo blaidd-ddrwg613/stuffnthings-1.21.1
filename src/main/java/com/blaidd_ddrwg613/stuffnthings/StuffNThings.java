@@ -12,14 +12,15 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
 
 @Mod(StuffNThings.MODID)
-public class StuffNThings {
+public class StuffNThings
+{
     public static final String MODID = "stuffnthings";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public StuffNThings(IEventBus modEventBus, ModContainer modContainer) {
 
-        ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
     }
 }
