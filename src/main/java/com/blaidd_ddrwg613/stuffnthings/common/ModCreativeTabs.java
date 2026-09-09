@@ -1,6 +1,7 @@
-package com.blaidd_ddrwg613.stuffnthings;
+package com.blaidd_ddrwg613.stuffnthings.common;
 
-import com.blaidd_ddrwg613.stuffnthings.items.ModItems;
+import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
+import com.blaidd_ddrwg613.stuffnthings.common.items.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

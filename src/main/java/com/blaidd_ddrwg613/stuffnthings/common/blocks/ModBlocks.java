@@ -1,7 +1,8 @@
-package com.blaidd_ddrwg613.stuffnthings.blocks;
+package com.blaidd_ddrwg613.stuffnthings.common.blocks;
 
 import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
-import com.blaidd_ddrwg613.stuffnthings.items.ModItems;
+import com.blaidd_ddrwg613.stuffnthings.common.blocks.custom.HealBlock;
+import com.blaidd_ddrwg613.stuffnthings.common.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

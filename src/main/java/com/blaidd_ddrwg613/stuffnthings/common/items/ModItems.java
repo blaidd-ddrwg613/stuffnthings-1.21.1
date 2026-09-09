@@ -1,8 +1,8 @@
-package com.blaidd_ddrwg613.stuffnthings.items;
+package com.blaidd_ddrwg613.stuffnthings.common.items;
 
 import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
+import com.blaidd_ddrwg613.stuffnthings.common.items.custom.WoodenDagger;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;

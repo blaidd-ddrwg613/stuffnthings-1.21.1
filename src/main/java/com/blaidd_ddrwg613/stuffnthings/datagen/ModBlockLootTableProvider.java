@@ -1,11 +1,10 @@
 package com.blaidd_ddrwg613.stuffnthings.datagen;
 
-import com.blaidd_ddrwg613.stuffnthings.blocks.ModBlocks;
+import com.blaidd_ddrwg613.stuffnthings.common.blocks.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;

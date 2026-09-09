@@ -1,7 +1,7 @@
 package com.blaidd_ddrwg613.stuffnthings.datagen;
 
 import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
-import com.blaidd_ddrwg613.stuffnthings.blocks.ModBlocks;
+import com.blaidd_ddrwg613.stuffnthings.common.blocks.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

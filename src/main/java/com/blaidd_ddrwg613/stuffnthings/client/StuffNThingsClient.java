@@ -1,5 +1,6 @@
-package com.blaidd_ddrwg613.stuffnthings;
+package com.blaidd_ddrwg613.stuffnthings.client;
 
+import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
