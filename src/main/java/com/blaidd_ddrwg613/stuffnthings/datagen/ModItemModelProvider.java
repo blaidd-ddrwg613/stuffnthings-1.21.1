@@ -1,6 +1,7 @@
 package com.blaidd_ddrwg613.stuffnthings.datagen;
 
 import com.blaidd_ddrwg613.stuffnthings.StuffNThings;
+import com.blaidd_ddrwg613.stuffnthings.items.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -15,6 +16,6 @@ public class ModItemModelProvider extends ItemModelProvider
     @Override
     protected void registerModels()
     {
-
+        basicItem(ModItems.WOODEN_DAGGER.get());
     }
 }
